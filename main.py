@@ -5,9 +5,9 @@ import youtube_dl
 from pyrogram import Client, filters
 from pyrogram.types import  InlineKeyboardMarkup, InlineKeyboardButton
 
-api_id = 123456789 #int of api id get from my.telegram.org
-api_hash = " Your Api Hash Here " #str of api hash get from my.telegram.org
-token = ' Your Bot Token here ' #str of token get from BotFather
+api_id = 6335798 #int of api id get from my.telegram.org
+api_hash = " 2c1c3275a9925936a6f3e6843def3915 " #str of api hash get from my.telegram.org
+token = ' 5042496986:AAGmDZRXycigkDK15EQJX2Ku1zLFNJmO9Aw ' #str of token get from BotFather
 app = Client("Downlaoder", api_id, api_hash, bot_token=token) # You Can Change The Session Name by Replace "Downlaoder" to your session name
 
 
